@@ -83,6 +83,7 @@ install_script() {
     echo -e "alias fc="~/fclone_shell_bot/script/fcheck.sh""  >> /root/.bashrc
     echo -e "alias fcl="~/fclone_shell_bot/script/fcleanup.sh""  >> /root/.bashrc
     echo -e "alias fcshell="~/fcshell.sh""  >> /root/.bashrc
+    echo -e "alias avdc='cd /home/gdrive/test && AV_Data_Capture'"  >> /root/.bashrc
     source /root/.bashrc
     echo -e "已完成安装，并设置系统级脚本别名"
     echo -e "输入fcshell  安装配置脚本"
@@ -91,6 +92,7 @@ install_script() {
     echo -e "输入fp       启动  p2p转存"
     echo -e "输入fb       启动  盘备份转存"
     echo -e "输入fs       启动  定向size查询"
+    echo -e "输入fsa      启动  自动检测sa"
     echo -e "输入fsort    启动  自动整理"
     echo -e "输入fd       启动  定向查重"
     echo -e "输入fc       启动  定向比对"
